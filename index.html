@@ -1,0 +1,363 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+rel="stylesheet"
+integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+crossorigin="anonymous"
+/>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("iitg_bg.jpg");
+  min-height: 70%;
+  max-height:600px;
+}
+
+.bgimg-2 {
+  background-image: url("tedx4.jpg");
+  min-height: 600px;
+}
+
+.bgimg-3 {
+  background-image: url("tedx11.jpg");
+  min-height: 500px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+.background-img{
+    margin-top: 5%;
+    /* background-image: url('tedx12.jpeg'); */
+    opacity: 0.95;
+    /* width: 1688px;
+    height: 913px; */
+    position: relative;
+    /* color: white; */
+    font-family: "Inter", sans-serif;
+   
+  }
+
+  .upper-content{
+    /* background-image: url('simple-background-wallpaper-preview.jpg'); */
+    /* height: 1500px; */
+  }
+
+  .upper-text{
+    font-family: "Inter", sans-serif;
+    font-size: 65px;
+    margin: 1% 2% 0 2%;
+    color: #FF2B06;
+    /* text-shadow: 5px 5px 7px black; */
+    border-bottom: 7.5px solid #FF2B06;
+  }
+ 
+  .upper-welcome-text{
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    margin: 1% 2% 0 2%;
+  }
+.top-left{
+    position: absolute;
+    top: 10px;
+    left: 2.5%;
+    font-size: 3.75vw;
+    color: white;
+}
+.welcome-text{
+    font-size: 100%;
+    position: absolute;
+    top: 120px;
+    /* left: 25px; */
+    /* color: black; */
+    margin: 0 2.5% 0 2.5%;
+    padding-left: 25px;
+    color: white;
+    /* background-color: rgb(244, 241, 236); */
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.carousel{
+  width: 80%;
+  height: 45%;
+
+  margin: 4% auto 5% auto;
+}
+
+.carousel-inner{
+  border-radius: 10px;
+  /* border: 10px outset rgb(240, 234, 234); */
+  box-shadow: 5px 5px 5px rgb(141, 139, 139), 10px 10px 10px rgb(216, 213, 213);
+}
+
+  .venue-location{
+    display: flex;
+    flex-direction: row;
+    /* margin: 5% 3% 5% 3%; */
+  }
+
+  .venue-img{
+    width: 90%;
+    height: 85%;
+    margin: 4% 0% 2% 2%;
+    border-radius: 5px;
+    /* border: 5px solid rgb(222, 219, 219); */
+    box-shadow: 5px 5px 5px rgb(141, 139, 139), 10px 10px 10px rgb(216, 213, 213);
+  }
+
+  .venue-info{
+    margin: 2% 2% 2% 2%;
+   font-family: "Inter", sans-serif;
+   width: 100%;
+   height: 100%;
+  }
+
+  .heading{
+    color: #FF2B06;
+    font-size: 35px;
+    border-bottom: 5px solid  #FF2B06;
+   /* width: 16.5%; */
+   font-family: "Inter", sans-serif;
+    
+  }
+
+  .insti-name{
+    font-size: 25px;
+    margin-bottom: 2%;
+    margin-top: 3%;
+
+  }
+  .insti-info{
+    font-size: 20px;
+    /* background-image: url('3968016.webp'); */
+  }
+
+  .guest-house-location{
+    display: flex;
+    flex-direction: row;
+    /* margin: 5% 3% 5% 3%; */
+  }
+
+  .guest-house-info{
+    font-family: "Inter", sans-serif;
+    width: 50%;
+    margin: 5% 5% 5% 5%;
+    font-size: 20px;
+  }
+  .guest-house-info-content{
+    margin: 5% 0 0 0;
+  }
+  .guest-house-map-div{
+    /* width: 50%; */
+    /* width: 10px; */
+    margin: 5% 5% 5% 5%;
+    /* width: 90%; */
+    height: 60%;
+    /* border: 5px solid rgb(243, 240, 240); */
+    box-shadow: 5px 5px 5px rgb(141, 139, 139), 10px 10px 10px rgb(216, 213, 213);
+    border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+<!-- //////////// space for navbar -->
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- /////////// -->
+<div class="bgimg-1">
+  <!-- <div class="caption">
+  <span class="border">SCROLL DOWN</span>
+  </div> -->
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align:center ;">
+  <h3 style="text-align:center;">Location And Venue</h3>
+  <p>On October 8, 2022, we’re bringing our in-person TEDxFarmingdale event BACK to the home of the green and white! Our upcoming TEDxFarmingdale, the 4th annual event of its kind, is coming soon. Stay tuned for details and tag us with #DalerTEDx2022 on social!</p>
+</div>
+
+<div class="bgimg-2">
+  <!-- <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
+  </div> -->
+</div>
+
+<div style="position:relative;color: #777;background-color:white;text-align:center;padding:50px 80px;text-align:justify ;">
+  <!-- <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  </div> -->
+  <div class="venue-location">
+    <div class="venue-img-div">
+      <img class="venue-img" src="tedx3.jpg" alt="" />
+    </div>
+    <div class="venue-info">
+      <!-- <div class="heading"> <b>VENUE</b> </div> -->
+      <span class="heading"> <b> Venue</b></span>
+      <div class="insti-name">Indian Institute of Technology, Guwahati</div>
+
+      <div class="insti-info">
+        It’s time that we give the thought leaders that surround us a stage to
+        discuss their ideas worth spreading. Join us at our IN-PERSON event to
+        be held at Farmingdale High School in Farmingdale, the epicenter of
+        #DalerPride in the heart of Long Island.
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<div class="bgimg-3">
+  <!-- <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+  </div> -->
+
+</div>
+
+<div style="position:relative;">
+  <!-- <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  </div> -->
+  <div class="guest-house-location">
+    <div class="guest-house-info">
+      <span class="heading"> <b> Melville Marriott Long Island</b></span>
+
+      <div class="guest-house-info-content">
+        Blending the urban style of New York City with the quaint charm of
+        Long Island, Marriott Long Island welcomes you to an inviting stay in
+        Melville. Our hotel offers convenient access to popular destinations
+        including Adventureland, Belmont Lake State Park, Bethpage State Park
+        and Walt Whitman Shops as well as the corporate headquarters of Canon
+        and Nikon.
+      </div>
+
+      1350 Walt Whitman Road, Melville, New York 11747
+    </div>
+    <div class="guest-house-map-div">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.0301468139473!2d91.69319601483646!3d26.195697583441543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5beeb8f3e3d5%3A0xbfb2f167f3c2dae6!2sIIT%20Guwahati%20Guest%20House!5e0!3m2!1sen!2sin!4v1671727133216!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <!-- <div class="caption">
+  <span class="border">COOL!</span>
+  </div> -->
+</div>
+<script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
