@@ -12,6 +12,7 @@ html {
 .bgimg-1 {
   position: relative;
   /* background-image: url("iitg_bg.jpg"); */
+  background-image: url("iitg_bg2.jpg");
   min-height: 100%;
   /* filter: brightness(70%); */
   background-position: center;
@@ -120,7 +121,7 @@ h3 {
   background-size: cover;
 }
 .bgimg-3 {
-  background-image: url("tedx11.jpg");
+  background-image: url("tedx112.jpg");
   min-height: 90%;
   
 }
@@ -270,7 +271,7 @@ h3 {
 
 .bgimg-1 {
   position: relative;
-  /* background-image: url("iitg_bg.jpg"); */
+  background-image: url("iitg_bg2.jpg");
   min-height: 100%;
   /* filter: brightness(70%); */
   background-position: center;
@@ -282,7 +283,8 @@ h3 {
 .welcome-text {
   position: absolute;
   left: 0;
-  top: 30%;
+  /* top: 50%; */
+  bottom: 40%;
   width: 98%;
   text-align: right;
 }
@@ -294,18 +296,19 @@ h3 {
   color: white;
   filter: brightness(120%);
   /* padding: 18px; */
-  font-size: 3vh;
+  font-size: small;
   letter-spacing: 0.5vh;
   /* margin: 0 2% 0 0 ; */
 }
 
 .about-event-text{
   position: absolute;
-  top: 20%;
+  top: 30%;
+  
   width: 98%;
   text-align: right;
   line-height: 1.2;
-  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  text-shadow: 10px 10px 5px rgb(0, 0, 0);
 
   
 }
