@@ -39,7 +39,7 @@ html {
 .welcome-text {
   position: absolute;
   left: 0;
-  top: 60%;
+  top: 35%;
   width: 98%;
   text-align: right;
 }
@@ -283,8 +283,8 @@ h3 {
 .welcome-text {
   position: absolute;
   left: 0;
-  /* top: 50%; */
-  bottom: 40%;
+  top: 35%;
+  /* bottom: 40%; */
   width: 98%;
   text-align: right;
 }
