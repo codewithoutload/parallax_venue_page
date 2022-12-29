@@ -272,7 +272,7 @@ h3 {
 .bgimg-1 {
   position: relative;
   background-image: url("iitg_bg2.jpg");
-  min-height: 100%;
+  min-height: 75%;
   /* filter: brightness(70%); */
   background-position: center;
   background-repeat: no-repeat;
